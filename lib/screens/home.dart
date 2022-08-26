@@ -27,7 +27,7 @@ class Home extends StatelessWidget {
             children: <Widget>[
               buildSearchBar(context),
               SizedBox(height: 20.0),
-              buildRestaurantRow('Trending Restaurants', context),
+              buildRestaurantRow('Trending Restaurants!', context),
               SizedBox(height: 10.0),
               buildRestaurantList(context),
               SizedBox(height: 10.0),
